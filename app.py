@@ -11,6 +11,7 @@ model_path = 'dog_cat_model.h5'
 gdrive_file_id = '1a79bIzeAot2kqt2y8VFNJfVe-Qs8Y6ZJ'
 gdown_url = f'https://drive.google.com/uc?id={gdrive_file_id}'
 
+
 # Download the model if not already present
 if not os.path.exists(model_path):
     st.write("Downloading model from Google Drive...")
