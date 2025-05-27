@@ -8,24 +8,25 @@ A deep learning-based web app that classifies whether an uploaded image is of a 
 
 - Upload an image (`.jpg`, `.jpeg`, or `.png`)
 - Predict whether it’s a **Dog 🐶** or a **Cat 🐱**
-- Uses a pre-trained model downloaded from Google Drive
-- Clean and responsive user interface
+- Uses a pre-trained model downloaded from Google Drive via `gdown`
+- Clean and responsive UI built with Streamlit
 
 ---
 
 ## 🧠 Technologies Used
 
-- [TensorFlow / Keras](https://www.tensorflow.org/) - Deep learning model
-- [Streamlit](https://streamlit.io/) - Web application framework
-- [gdown](https://pypi.org/project/gdown/) - Download model from Google Drive
-- [NumPy](https://numpy.org/) & [Pillow](https://pillow.readthedocs.io/) - Image processing
+- [TensorFlow / Keras](https://www.tensorflow.org/) — Deep learning model
+- [Streamlit](https://streamlit.io/) — Web application framework
+- [gdown](https://pypi.org/project/gdown/) — Download model from Google Drive
+- [NumPy](https://numpy.org/) & [Pillow](https://pillow.readthedocs.io/) — Image processing
 
 ---
 
 ## 🚀 How to Run Locally
 
-1. **Clone the repository** or download the files:
+1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/bhavyatosh/dog-cat-classifier.git
-   cd dog-cat-classifier
+   git clone https://github.com/bhavyatosh/dogcat-app.git
+   cd dogcat-app
+
